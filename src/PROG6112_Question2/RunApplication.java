@@ -7,13 +7,13 @@ public class RunApplication {
         
         Scanner input = new Scanner(System.in);
         
-        System.out.println("The cricketer name: ");
+        System.out.print("The cricketer name: ");
         String batsmanName = input.nextLine();
         
-        System.out.println("Enter the stadium: ");
+        System.out.print("Enter the stadium: ");
         String stadiumName = input.nextLine();
         
-        System.out.println("Enter the total runs scored by " + batsmanName + " at " + stadiumName + ": ");
+        System.out.print("Enter the total runs scored by " + batsmanName + " at " + stadiumName + ": ");
         int runsScored = input.nextInt();
         
         CricketRunsScored report = new CricketRunsScored(batsmanName, stadiumName, runsScored);
